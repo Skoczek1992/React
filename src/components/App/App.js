@@ -1,5 +1,5 @@
 import React from 'react';
-import List from '../List/List.js'
+import List from '../List/List.js';
 import styles from './App.scss';
 import {pageContents, listData} from '../../data/dataStore';
 
@@ -11,7 +11,7 @@ class App extends React.Component {
         <h2 className={styles.subtitle}>{pageContents.subtitle}</h2>
         <List {...listData} />
       </main>
-    )
+    );
   }
 }
 

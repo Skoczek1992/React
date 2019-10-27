@@ -11,7 +11,7 @@ class Hero extends React.Component {
         <h2 className={styles.title}>{ReactHtmlParser(this.props.titleText)}</h2>
         <img className={styles.image} src="http://uploads.kodilla.com/bootcamp/fer/11.react/space.png"/>
       </header>
-    )
+    );
   }
 }
 
