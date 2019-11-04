@@ -20,6 +20,5 @@ export default function reducer(state = [], action = {}) {
       return [...state, { ...action.payload, id: shortid.generate() }];
     default:
       return state;
-      
   }
 }
