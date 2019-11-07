@@ -1,9 +1,19 @@
 import React from 'react';
 import Home from '../Home/HomeContainer';
+import Info from '../Info/Info';
+import Faq from '../Faq/Faq';
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import MainLayout from '../MainLayout/MainLayout.js';
 
 const App = () => (
-  <div>
-    <Home />
-  </div>
+  <BrowserRouter>
+    <MainLayout>
+      <Switch>
+        <Route exact path='/' component={Home} />
+        <Route exact path='/info' component={Info} />
+        <Route exact path='/Faq' component={Faq} />
+      </Switch>
+    </MainLayout>
+  </BrowserRouter>
 );
 export default App;
