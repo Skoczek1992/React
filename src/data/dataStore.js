@@ -91,6 +91,19 @@ const lists = [
     description: 'Interesting things I want to check out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   },
+
+  {
+    id: 'list-2',
+    title: 'Things to do <sup>very soon!</sup>',
+    description: 'Interesting things I want to check out!',
+    image: 'https://as1.ftcdn.net/jpg/01/21/64/96/500_F_121649680_5EYoQMtyybQGXe0RqvTUT1zDLhensQxo.jpg',
+  },
+  {
+    id: 'list-3',
+    title: 'Things to do <sup>not so soon!</sup>',
+    description: 'Interesting things I want to check out!',
+    image: 'https://images.pexels.com/photos/1572386/pexels-photo-1572386.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+  },
 ];
 
 const columns = [
